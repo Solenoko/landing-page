@@ -28,7 +28,7 @@
 }
 
 .btn-more:hover {
-  background-size: 100% 3px;
+  background-size: 100% 2px;
   color: #d83030;
 }
 .btn-more:hover .arrow {
