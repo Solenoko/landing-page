@@ -27,4 +27,4 @@ Now, the ASUS Gaming ROG landing page offers a visually appealing, user-centered
 
 Here’s a preview of the landing page:
 
-![ASUS Gaming ROG Landing Page](images/landing-page.png)
+![ASUS Gaming ROG Landing Page](landing/images/landing-page.png)
