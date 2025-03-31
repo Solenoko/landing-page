@@ -1,0 +1,22 @@
+.btn-primary {
+  color: #ffffff;
+  font-size: 18px;
+  background-size: 0 2px;
+  background-image: linear-gradient(to left, #d83030, #d83030);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.5s;
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+.btn-primary:hover {
+  background-size: 100% 2px;
+  color: #d83030;
+  transition: all 0.5s;
+}

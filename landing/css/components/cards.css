@@ -1,0 +1,36 @@
+.card img {
+  width: 150px;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.card p {
+  opacity: 0.5;
+  margin: 0;
+}
+
+.card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,36 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.btn-more {
+  color: #6B6C6C;
+  font-size: 18px;
+  background-size: 0 2px;
+  background-image: linear-gradient(to left, #d83030, #d83030);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.5s, color 0.3s;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-more .arrow {
+  display: inline-block;
+  font-size: 25px;
+  transition: transform 0.3s ease-in-out;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.btn-more:hover {
+  background-size: 100% 3px;
+  color: #d83030;
+}
+.btn-more:hover .arrow {
+  transform: translateX(5px);
+}
